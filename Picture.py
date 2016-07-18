@@ -20,5 +20,6 @@ for pixel in pixels:
     elif getGray(pixel)> 60:
         setColor(pixel,Red)
 show(pic)
+savePicture(pic,"Tinko.jpg") 
     
     
